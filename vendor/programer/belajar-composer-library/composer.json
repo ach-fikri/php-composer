@@ -1,0 +1,19 @@
+{
+    "name": "programer/belajar-composer-library",
+    "description": "belajar library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ach-fikri",
+            "email": "ach.fikri.student@unibamadura.ac.id"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Programmer\\Belajar\\" : "src/"
+        }
+    }
+}

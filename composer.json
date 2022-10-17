@@ -1,0 +1,27 @@
+{
+    "name": "ach-fikri/belajar-php-composer",
+    "description": "belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ach-fikri",
+            "email": "ach.fikri.student@unibamadura.ac.id"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Programmer\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/ach-fikri/Belajar-PHP-Library"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0",
+        "programer/belajar-composer-library" : "2.0.0",
+        "monolog/monolog": "3.2.0"
+    }
+}
